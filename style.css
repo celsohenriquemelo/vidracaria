@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    background-color: orange;
+    width: 100%;
+}
+main{
+    padding: 0px 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 16px;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+}
+.container img{
+    border-radius:50%;
+}
+footer ul{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    padding: 25px;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
+
