@@ -1,15 +1,16 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
-    background-color: orange;
+    background-color: rgb(31, 31, 126);
     width: 100%;
 }
 main{
-    padding: 0px 50px;
+    padding: 10px;
 }
-.container{
+.menu{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -18,11 +19,11 @@ main{
     align-items: center;
     padding: 16px;
 }
-.container a{
+.menu a{
     color: white;
     text-decoration: none;
 }
-.container img{
+.logo img{
     border-radius:50%;
 }
 footer ul{
@@ -30,8 +31,40 @@ footer ul{
     justify-content:space-between;
     list-style-type: none;
     padding: 25px;
-    background-color: orange;
+    background-color: rgb(31, 31, 126);
     font-size: 20px;
     color: white;
+}
+section.empresa {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+
+}
+section.serviços{
+    width: 100%;
+    margin-top: 10%;
+    padding: 50px;
+    color: black;
+    display: flex;
+    text-align: center;
+}
+.imagens{
+   text-align: center;
+   padding: 0px 50px;
+}
+.orçamento{
+    padding: 50px;
+}
+.localização{
+    padding: 50px;
+}
+.itens{
+    list-style-type: none;
+}
+.maps{
+    display: flex;
+    justify-content: right;
+  
 }
 
